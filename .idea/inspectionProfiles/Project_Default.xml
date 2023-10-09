@@ -1,0 +1,34 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="false" level="WARNING" enabled_by_default="false">
+      <option name="ignoredPackages">
+        <value>
+          <list size="13">
+            <item index="0" class="java.lang.String" itemvalue="watchfiles" />
+            <item index="1" class="java.lang.String" itemvalue="botocore" />
+            <item index="2" class="java.lang.String" itemvalue="PyYAML" />
+            <item index="3" class="java.lang.String" itemvalue="SQLAlchemy" />
+            <item index="4" class="java.lang.String" itemvalue="python-dotenv" />
+            <item index="5" class="java.lang.String" itemvalue="httptools" />
+            <item index="6" class="java.lang.String" itemvalue="boto3" />
+            <item index="7" class="java.lang.String" itemvalue="fastapi" />
+            <item index="8" class="java.lang.String" itemvalue="backports.zoneinfo" />
+            <item index="9" class="java.lang.String" itemvalue="starlette" />
+            <item index="10" class="java.lang.String" itemvalue="uvicorn" />
+            <item index="11" class="java.lang.String" itemvalue="uvloop" />
+            <item index="12" class="java.lang.String" itemvalue="websockets" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="common.db_connection.db_connection.cursor" />
+          <option value="googlemaps.client.Client.places_nearby" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
